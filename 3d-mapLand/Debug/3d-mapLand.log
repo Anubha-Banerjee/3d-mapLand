@@ -1,0 +1,58 @@
+﻿Build started 01-Mar-2015 8:50:47 PM.
+     1>Project "C:\Anubha\final year\project\source\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Anubha\final year\project\source\sounds\soundLibrary\lib" /I"C:\Anubha\final year\project\source\glm-0.9.2.7" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D FREEGLUT_STATIC /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\map.h(7): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\map.h(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\car.h(4): warning C4005: 'INFINITY' : macro redefinition
+                 c:\anubha\final year\project\source\3d-mapland\3d-mapland\map.h(7) : see previous definition of 'INFINITY'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\car.h(9): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\car.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\sounds.h(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(76): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(77): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(86): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(87): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(103): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(141): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(141): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(156): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(162): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(178): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(185): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(204): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(225): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(230): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(290): warning C4305: 'argument' : truncation from 'double' to 'irrklang::ik_f32'
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(318): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(319): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(321): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(322): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(304): warning C4101: 'minX' : unreferenced local variable
+     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(579): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Anubha\final year\project\source\3d-mapLand\Debug\3d-mapLand.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Anubha\final year\project\source\3d-mapLand\Debug\3d-mapLand.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Anubha\final year\project\source\3d-mapLand\Debug\3d-mapLand.lib" /MACHINE:X86 Debug\car.obj
+         Debug\connection.obj
+         Debug\display.obj
+         Debug\main.obj
+         Debug\camera.obj
+         Debug\map.obj
+         Debug\model.obj
+         Debug\objectLoader.obj
+         Debug\transform.obj
+         ..\..\..\..\..\..\glut\SB5\glut_dlls\freeglut_static.lib
+         ..\..\..\..\..\..\glut\SB5\glut_dlls\gltools.lib
+         3d-mapLand.vcxproj -> C:\Anubha\final year\project\source\3d-mapLand\Debug\3d-mapLand.exe
+     1>Done Building Project "C:\Anubha\final year\project\source\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20

@@ -1,0 +1,27 @@
+﻿Build started 06-04-2013 08:22:24.
+     1>Project "D:\Anubha\final year\project\source\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt car.cpp connection.cpp display.cpp main.cpp camera.cpp map.cpp model.cpp objectLoader.cpp transform.cpp
+         car.cpp
+     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\car.h(1): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         connection.cpp
+     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\map.h(1): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         display.cpp
+     1>display.cpp(1): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         main.cpp
+     1>main.cpp(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         camera.cpp
+     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\camera.h(1): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         map.cpp
+     1>map.cpp(2): fatal error C1083: Cannot open include file: 'math3d.h': No such file or directory
+         model.cpp
+     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\model.h(4): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         objectLoader.cpp
+     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\objectLoader.h(1): fatal error C1083: Cannot open include file: 'GLTools.h': No such file or directory
+         transform.cpp
+     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\transform.h(1): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+     1>Done Building Project "D:\Anubha\final year\project\source\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.53

@@ -1,0 +1,18 @@
+# version 130
+
+in vec4 vertex;
+in vec3 normal;
+in vec4 texture;
+
+out vec4 myvertex;
+out vec3 mynormal;
+out vec2 mytexture;
+
+
+void main()
+{
+	myvertex = vertex;
+	mynormal = normal;
+	gl_Position = gl_ProjectionMatrix * gl_ModelViewMatrix  * vertex;
+	mytexture = texture.st;	
+}
