@@ -2,6 +2,7 @@
 The final year project - improved
 
 keys :
+f - fullscreen
 c - toggle collision detection
 1 - normal speed
 2 - high speed
