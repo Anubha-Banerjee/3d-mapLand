@@ -1,45 +1,230 @@
-﻿Build started 01-Mar-2015 8:50:47 PM.
-     1>Project "C:\Anubha\final year\project\source\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" on node 2 (Build target(s)).
+﻿Build started 01-Mar-2015 10:58:41 PM.
+     1>Project "C:\projects\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Anubha\final year\project\source\sounds\soundLibrary\lib" /I"C:\Anubha\final year\project\source\glm-0.9.2.7" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D FREEGLUT_STATIC /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\map.h(7): warning C4005: 'INFINITY' : macro redefinition
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\map.h(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\car.h(4): warning C4005: 'INFINITY' : macro redefinition
-                 c:\anubha\final year\project\source\3d-mapland\3d-mapland\map.h(7) : see previous definition of 'INFINITY'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\car.h(9): warning C4305: 'initializing' : truncation from 'double' to 'const float'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\car.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\sounds.h(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(76): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(77): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(86): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(87): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(103): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(141): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(141): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(156): warning C4305: 'initializing' : truncation from 'double' to 'const float'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(162): warning C4305: '=' : truncation from 'double' to 'float'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(178): warning C4305: 'argument' : truncation from 'double' to 'const float'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(185): warning C4305: 'argument' : truncation from 'double' to 'const float'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'const float'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(204): warning C4305: 'argument' : truncation from 'double' to 'const float'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(225): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(230): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Anubha\final year\project\source\sounds\soundLibrary\lib" /I"C:\Anubha\final year\project\source\glm-0.9.2.7" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D FREEGLUT_STATIC /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt car.cpp connection.cpp display.cpp main.cpp camera.cpp map.cpp model.cpp objectLoader.cpp transform.cpp
+         transform.cpp
+     1>c:\projects\3d-mapland\3d-mapland\transform.cpp(44): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+         objectLoader.cpp
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(18): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(39): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(43): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(47): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(73): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(74): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(75): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(76): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(77): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(78): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(104): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(105): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(64): warning C4101: 'f_or_new' : unreferenced local variable
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(64): warning C4101: 'test' : unreferenced local variable
+     1>c:\projects\3d-mapland\3d-mapland\objectloader.cpp(120): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+         model.cpp
+     1>c:\projects\3d-mapland\3d-mapland\model.cpp(54): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(290): warning C4305: 'argument' : truncation from 'double' to 'irrklang::ik_f32'
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(318): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(319): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(321): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(322): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(304): warning C4101: 'minX' : unreferenced local variable
-     1>c:\anubha\final year\project\source\3d-mapland\3d-mapland\main.cpp(579): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         map.cpp
+     1>c:\projects\3d-mapland\3d-mapland\map.h(7): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\projects\3d-mapland\3d-mapland\map.h(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(50): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(71): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(99): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(136): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(142): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(145): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(149): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(150): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(155): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(165): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(166): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(187): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(198): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(214): warning C4172: returning address of local variable or temporary
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(223): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(226): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(237): warning C4172: returning address of local variable or temporary
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(306): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(314): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(352): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(367): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(405): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(406): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(491): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(496): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(526): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(541): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(563): warning C4129: 'w' : unrecognized character escape sequence
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(588): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(589): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(623): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(627): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(628): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(793): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(794): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(801): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(803): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(815): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(817): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(829): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(830): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(831): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(844): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(846): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(859): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(860): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(861): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(874): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(875): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(876): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(891): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(892): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(893): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(907): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(908): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(909): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(922): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(961): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         camera.cpp
+         main.cpp
+     1>c:\projects\3d-mapland\3d-mapland\map.h(7): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\projects\3d-mapland\3d-mapland\map.h(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\car.h(4): warning C4005: 'INFINITY' : macro redefinition
+                 c:\projects\3d-mapland\3d-mapland\map.h(7) : see previous definition of 'INFINITY'
+     1>c:\projects\3d-mapland\3d-mapland\car.h(9): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\car.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\sounds.h(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(76): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(77): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(86): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(87): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(103): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(141): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(141): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(156): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(162): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(178): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(185): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(204): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(225): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(230): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(290): warning C4305: 'argument' : truncation from 'double' to 'irrklang::ik_f32'
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(318): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(319): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(321): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(322): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(304): warning C4101: 'minX' : unreferenced local variable
+     1>c:\projects\3d-mapland\3d-mapland\main.cpp(579): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         display.cpp
+     1>c:\projects\3d-mapland\3d-mapland\car.h(4): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\projects\3d-mapland\3d-mapland\car.h(9): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\car.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\map.h(7): warning C4005: 'INFINITY' : macro redefinition
+                 c:\projects\3d-mapland\3d-mapland\car.h(4) : see previous definition of 'INFINITY'
+     1>c:\projects\3d-mapland\3d-mapland\map.h(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(46): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(47): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(53): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(64): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(80): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(108): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(120): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\display.cpp(146): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+         connection.cpp
+     1>c:\projects\3d-mapland\3d-mapland\map.h(7): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\projects\3d-mapland\3d-mapland\map.h(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\projects\3d-mapland\3d-mapland\connection.cpp(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\projects\3d-mapland\3d-mapland\connection.cpp(37): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+     1>c:\projects\3d-mapland\3d-mapland\connection.cpp(42): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>c:\projects\3d-mapland\3d-mapland\connection.cpp(42): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>c:\projects\3d-mapland\3d-mapland\connection.cpp(46): warning C4101: 'servInfo' : unreferenced local variable
+     1>c:\projects\3d-mapland\3d-mapland\connection.cpp(45): warning C4101: 'hostname' : unreferenced local variable
+         car.cpp
+     1>c:\projects\3d-mapland\3d-mapland\car.h(4): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\projects\3d-mapland\3d-mapland\car.h(9): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\car.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(13): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(17): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(108): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(112): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(194): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(255): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(265): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(266): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\projects\3d-mapland\3d-mapland\car.cpp(267): warning C4305: '=' : truncation from 'double' to 'float'
+         Generating Code...
+     1>c:\projects\3d-mapland\3d-mapland\connection.cpp(71): warning C4715: 'connect_and_save' : not all control paths return a value
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(430): warning C4715: 'searchNode' : not all control paths return a value
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Anubha\final year\project\source\3d-mapLand\Debug\3d-mapLand.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Anubha\final year\project\source\3d-mapLand\Debug\3d-mapLand.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Anubha\final year\project\source\3d-mapLand\Debug\3d-mapLand.lib" /MACHINE:X86 Debug\car.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\projects\3d-mapLand\Debug\3d-mapLand.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\projects\3d-mapLand\Debug\3d-mapLand.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\3d-mapLand\Debug\3d-mapLand.lib" /MACHINE:X86 Debug\car.obj
          Debug\connection.obj
          Debug\display.obj
          Debug\main.obj
@@ -50,9 +235,19 @@
          Debug\transform.obj
          ..\..\..\..\..\..\glut\SB5\glut_dlls\freeglut_static.lib
          ..\..\..\..\..\..\glut\SB5\glut_dlls\gltools.lib
-         3d-mapLand.vcxproj -> C:\Anubha\final year\project\source\3d-mapLand\Debug\3d-mapLand.exe
-     1>Done Building Project "C:\Anubha\final year\project\source\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" (Build target(s)).
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUniform1fv imported
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUniform4fv imported
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>main.obj : warning LNK4217: locally defined symbol _glewInit imported in function _main
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>gltools.lib(GLBatch.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLBatch.obj)' or at 'C:\projects\3d-mapLand\Debug\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(glew.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(glew.obj)' or at 'C:\projects\3d-mapLand\Debug\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(GLTools.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLTools.obj)' or at 'C:\projects\3d-mapLand\Debug\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(GLTriangleBatch.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLTriangleBatch.obj)' or at 'C:\projects\3d-mapLand\Debug\vc90.pdb'; linking object as if no debug info
+         3d-mapLand.vcxproj -> C:\projects\3d-mapLand\Debug\3d-mapLand.exe
+     1>Done Building Project "C:\projects\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.20
+Time Elapsed 00:00:10.19

@@ -205,7 +205,7 @@ void storeTagInArray(nodeTag *array, int *index, node curr_node)
 
 char* returnName(FILE *fp)
 {
-	char word[1000], amenityName[1000] = "empty";
+	char word[1000] = "", amenityName[1000] = "empty";
 	while (strcmp(word, "\"name\":"))
 	{
 		readWord(fp, word);
@@ -229,7 +229,7 @@ char* returnName(FILE *fp)
 	}
 
 	// so that ending " is not stored
-	if (amenityName[i - 2] == ',')
+		if (amenityName[i - 2] == ',')
 		amenityName[i - 3] = NULL;
 	else amenityName[i - 2] = NULL;
 

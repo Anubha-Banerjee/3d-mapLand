@@ -1,27 +1,129 @@
-﻿Build started 06-04-2013 08:22:24.
-     1>Project "D:\Anubha\final year\project\source\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" on node 2 (Build target(s)).
+﻿Build started 06-Mar-2015 12:58:52 PM.
+     1>Project "C:\projects\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt car.cpp connection.cpp display.cpp main.cpp camera.cpp map.cpp model.cpp objectLoader.cpp transform.cpp
-         car.cpp
-     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\car.h(1): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
-         connection.cpp
-     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\map.h(1): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         display.cpp
-     1>display.cpp(1): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         main.cpp
-     1>main.cpp(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         camera.cpp
-     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\camera.h(1): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Anubha\final year\project\source\sounds\soundLibrary\lib" /I"C:\Anubha\final year\project\source\glm-0.9.2.7" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D FREEGLUT_STATIC /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt map.cpp
          map.cpp
-     1>map.cpp(2): fatal error C1083: Cannot open include file: 'math3d.h': No such file or directory
-         model.cpp
-     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\model.h(4): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
-         objectLoader.cpp
-     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\objectLoader.h(1): fatal error C1083: Cannot open include file: 'GLTools.h': No such file or directory
-         transform.cpp
-     1>d:\anubha\final year\project\source\3d-mapland\3d-mapland\transform.h(1): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
-     1>Done Building Project "D:\Anubha\final year\project\source\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" (Build target(s)) -- FAILED.
+     1>c:\projects\3d-mapland\3d-mapland\map.h(7): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\projects\3d-mapland\3d-mapland\map.h(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(50): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(71): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(99): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(136): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(142): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(145): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(149): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(150): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(155): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(165): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(166): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>map.cpp(187): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>map.cpp(198): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(214): warning C4172: returning address of local variable or temporary
+     1>map.cpp(223): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(226): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(237): warning C4172: returning address of local variable or temporary
+     1>map.cpp(306): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>map.cpp(314): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>map.cpp(352): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(367): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(405): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>map.cpp(406): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>map.cpp(491): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(496): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>map.cpp(526): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(541): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>map.cpp(563): warning C4129: 'w' : unrecognized character escape sequence
+     1>map.cpp(588): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>map.cpp(589): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>map.cpp(623): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(627): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(628): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(793): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>map.cpp(794): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>map.cpp(801): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(803): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(815): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(817): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(829): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(830): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(831): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(844): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(846): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(859): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(860): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(861): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(874): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(875): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(876): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(891): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(892): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(893): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(907): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(908): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(909): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(922): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>map.cpp(961): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\projects\3d-mapLand\Release\3d-mapLand.exe" /INCREMENTAL:NO /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\projects\3d-mapLand\Release\3d-mapLand.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\3d-mapLand\Release\3d-mapLand.lib" /MACHINE:X86 /SAFESEH Release\car.obj
+         Release\connection.obj
+         Release\display.obj
+         Release\main.obj
+         Release\camera.obj
+         Release\map.obj
+         Release\model.obj
+         Release\objectLoader.obj
+         Release\transform.obj
+         ..\..\..\..\..\..\glut\SB5\glut_dlls\freeglut_static.lib
+         ..\..\..\..\..\..\glut\SB5\glut_dlls\gltools.lib
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+     1>c:\projects\3d-mapland\3d-mapland\map.cpp(430): warning C4715: 'searchNode' : not all control paths return a value
+     1>c:\projects\3d-mapland\3d-mapland\connection.cpp(71): warning C4715: 'connect_and_save' : not all control paths return a value
+         Finished generating code
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUniform1fv imported
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUniform4fv imported
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>main.obj : warning LNK4049: locally defined symbol _glewInit imported
+     1>gltools.lib(GLBatch.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLBatch.obj)' or at 'C:\projects\3d-mapLand\Release\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(glew.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(glew.obj)' or at 'C:\projects\3d-mapLand\Release\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(GLTools.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLTools.obj)' or at 'C:\projects\3d-mapLand\Release\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(GLTriangleBatch.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLTriangleBatch.obj)' or at 'C:\projects\3d-mapLand\Release\vc90.pdb'; linking object as if no debug info
+         3d-mapLand.vcxproj -> C:\projects\3d-mapLand\Release\3d-mapLand.exe
+     1>Done Building Project "C:\projects\3d-mapLand\3d-mapLand\3d-mapLand.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:02.53
+Time Elapsed 00:00:02.92
